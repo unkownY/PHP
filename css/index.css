@@ -1,0 +1,38 @@
+ .login{
+        width: 400px;
+        height: 300px;
+        border: rgba(0, 253, 94, 0.3) solid 1px;
+        border-radius: 10px;
+        background-color: #ffffff;
+        margin-top: 175px;
+        border-color: #00ccff;
+    }
+
+    .text{
+        width: 200px;
+        height: 30px;
+        margin-top: 10px;
+        border-radius: 5px;
+        background-color: rgba(0, 226, 255, 0.4);
+        border-color: #00d8ff;
+    }
+
+    .logbt{
+        width: 205px;
+        height: 35px;
+        border-radius: 2px;
+        margin-top: 10px;
+        background-color: #00e5ff;
+        border: #00ffef solid 2px;
+    }
+
+    .info{
+        margin-top: 75px;
+        margin-left: 30px;
+    }
+
+    a{
+        color: #00fff7;
+        font-size: 15px;
+        font-weight: bolder;
+    }
