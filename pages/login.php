@@ -13,7 +13,7 @@
 	// 链接数据库
 	$server = "127.0.0.1";
 	$user = "root";
-	$pswd = "";
+	$pswd = "ycj19950510";
 	$db = "ycj";
 	$conn = mysqli_connect($server ,$user ,$pswd , $db);
 
