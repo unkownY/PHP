@@ -22,9 +22,9 @@
 		$select_result = mysqli_query($conn ,$select_sql );
 		$a = mysqli_fetch_assoc($select_result)["passwd"];
 
-		if ($passwd==$a) {
+		if ($passwd==$a && isset($passwd) && isset($a)) {
 			echo "<script>";
-			echo "window.location.href='test.php'";
+			echo "window.location.href='#'";
 			echo "</script>";
 		}
 		else{
@@ -34,8 +34,9 @@
 			echo "</script>";
 		}
 	}
-	else 			//数据库连接失败
-		echo "数据库连接失败"
+	else{ 			//数据库连接失败
+		echo "数据库连接失败";
+	}
 		
 ?>
 </body>
