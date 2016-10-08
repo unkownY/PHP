@@ -2,32 +2,31 @@
 <html>
 <head>
 	<title>Domitory</title>
-	<meta charset="UTF-8" />
+	<meta charset="utf-8" />
 	<link rel="stylesheet" type="text/css" href="../../css/index_D.css">
 	<script src="../../script/whole.js"></script>
 	<script>
-		function check(){
-			if(isNull(form1.username.value)) {
-				alert('请输入账号')
-				return false
-			}
-			else if (isNull(form1.userpasswd.value)) {
-				alert('请输入密码')
-				return false
-			}
-			else if(isNull(form1.flag.value)) {
-				alert('请选择登录类型')
-				return false
-			}
-		}
+	function check(){
+	if(isNull(form1.username.value)) {
+		alert('请输入账号')
+		return false
+	}
+	else if (isNull(form1.userpasswd.value)) {
+		alert('请输入密码')
+		return false
+	}
+	else if(isNull(form1.flag.value)) {
+		alert('请选择登录类型')
+		return false
+	}
+}
 
-		function isNull(str){
-			if ( str == "" ) return true;
-			var regu = "^[ ]+$";
-			var re = new RegExp(regu);
-			return re.test(str);
-		}
-	</script>
+function isNull(str){
+	if ( str == "" ) return true;
+	var regu = "^[ ]+$";
+	var re = new RegExp(regu);
+	return re.test(str);
+}</script>
 </head>
 <body onload="login();">
 	<div id="login" class="login">

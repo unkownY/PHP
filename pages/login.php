@@ -7,8 +7,8 @@
 <body>
 <?php
 
-	$name = $_POST['name'];
-	$passwd = $_POST['passwd'];
+	$name = $_POST['username'];
+	$passwd = $_POST['userpasswd'];
 
 	// 链接数据库
 	$server = "127.0.0.1";

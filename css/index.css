@@ -3,7 +3,7 @@
 	height: 250px;
 	border: rgba(0, 253, 94, 0.3) solid 1px;
 	border-radius: 10px;
-	background-color: rgba(255,255,255,0.5);;
+	background-color: rgba(255,255,255,0.5);
 	border-color: #00ccff;
 	margin: auto;
 
@@ -15,7 +15,7 @@
 	margin-top: 10px;
 	border-radius: 5px;
 	background-color: #D8DBE2;
-	border-color: #00ccff;
+	/*border-color: #00ccff;*/
 }
 
 .logbt{
@@ -23,18 +23,20 @@
 	height: 35px;
 	border-radius: 2px;
 	margin-top: 10px;
-	background-color: #00e5ff;
-	border: #00ffef solid 2px;
+	background-color: #00eeff;
+	/*border: #00ffef solid 2px;*/
+	border-color: white;
 }
 
 .infomation{
 	margin: 55px auto;
 	position: relative;
 	left: 23%;
+
 }
 
 a{
-	color: #00fff7;
+	color: black;
 	font-size: 15px;
 	font-weight: bolder;
 }
@@ -43,4 +45,5 @@ body{
 	background-color: #D8DBE2;
 	background-repeat: no-repeat;
 	background-size: 100%;
+	text-align: center;
 }
