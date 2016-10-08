@@ -1,21 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>首页</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="/css/main.css">
-	<script src="/js/whole.js"></script>
+	<title>Nvigator</title>
+	<meta charset="utf-8" />
 </head>
-<body onload="main_height();">
-
-	<div class="main" id="main">
-		<div class="image" id="image">
-			<!-- <img src="/images/2.jpg" alt=""> -->
-		</div>
-		<div class="nextPage">
-			
-		</div>
-	</div>
-
+<body>
+	<?php  
+		echo '<h3><a href="zhaopinxinxi/NorS.html">西电招聘信息</a></h3>';
+		echo '<h3><a href="Dormitory/index.html">学生宿舍管理系统</a></h3>'
+	?>
 </body>
 </html>

@@ -1,0 +1,24 @@
+.login{
+	width: 533px;
+	height: 300px;
+	border: rgba(0, 253, 94, 0.3) solid 1px;
+	/*border-radius: 10px;*/
+	/*background-color: #999999;*/
+	background-color: rgba(153 ,153 ,153 ,0.5);
+	margin: auto;
+	text-align: center;
+	background-image: url("../../images/D_login_bg.jpg"); 
+}
+
+table{
+	margin: auto;
+	padding-top: 50px;
+}
+
+input,select{
+	height: 30px;
+	width: 170px;
+	border-radius: 2px;
+	border-width: 1px;
+	margin-top: 10px;
+}

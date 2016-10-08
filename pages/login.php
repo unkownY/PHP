@@ -20,11 +20,11 @@
 	if($conn){		//数据库连接成功
 		$select_sql = "select passwd from vip_user where name ='" .$name ."'";
 		$select_result = mysqli_query($conn ,$select_sql );
-		$a = mysqli_fetch_assoc($select_result)["passwd"];
+		$result = mysqli_fetch_assoc($select_result)["passwd"];
 
-		if ($passwd==$a && isset($passwd) && isset($a)) {
+		if ($passwd==$result && isset($passwd) && isset($result)) {
 			echo "<script>";
-			echo "window.location.href='#'";
+			echo "window.location.href='main.php'";
 			echo "</script>";
 		}
 		else{

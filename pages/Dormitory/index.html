@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Domitory</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" type="text/css" href="../../css/index_D.css">
+	<script src="../../script/whole.js"></script>
+	<script>
+		function check(){
+			if(isNull(form1.username.value)) {
+				alert('请输入账号')
+				return false
+			}
+			else if (isNull(form1.userpasswd.value)) {
+				alert('请输入密码')
+				return false
+			}
+			else if(isNull(form1.flag.value)) {
+				alert('请选择登录类型')
+				return false
+			}
+		}
+
+		function isNull(str){
+			if ( str == "" ) return true;
+			var regu = "^[ ]+$";
+			var re = new RegExp(regu);
+			return re.test(str);
+		}
+	</script>
+</head>
+<body onload="login();">
+	<div id="login" class="login">
+		<form action="login.php" method="post" name="form1" onsubmit="return check()">
+			<table>
+				<tr>
+					<td><input type="text" name="username" id="username" placeholder="请输入账号"></td>
+				</tr>
+				<tr>
+					<td><input type="password" name="userpasswd" id="userpasswd" placeholder="请输入密码"></td>
+				</tr>
+				<tr>
+					<td>
+						<select name="flag" id="flag">
+							<option value="0" selected="selected">*-*-*-请选择登录类型-*-*-*</option>
+							<option value="1">学&nbsp;&nbsp;&nbsp;&nbsp;生</option>
+							<option value="2">管理员</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="登录"></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>
