@@ -6,7 +6,6 @@
 </head>
 <body>
 <?php
-
 	$name = $_POST['username'];
 	$passwd = $_POST['userpasswd'];
 

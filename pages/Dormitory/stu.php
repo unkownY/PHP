@@ -6,11 +6,7 @@
 </head>
 <body>
 	
-	<?php 
-
-		echo "Student Down .";
-
-	?>
+	<nav style="background-color: #00CCFF; width: 80%;height: 300px;"></nav>
 
 </body>
 </html>

@@ -31,8 +31,8 @@
 					}
 					else {
 						echo "<script>";
-						echo "alert('学生密码或用户名错误')";
-						echo "window.location.href='index.html'";
+						echo "alert('学生密码或用户名错误');";
+						echo "window.location.href='index.html';";
 						echo "</script>";
 					}
 					break;
